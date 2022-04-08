@@ -28,7 +28,9 @@ const Projects = () => (
     <Img src={image} />
         <TitleContent>
         <HeaderThree title>{title}</HeaderThree>
+            <Hr/>
         </TitleContent>
+        <CardInfo>{description}</CardInfo>
         </BlogCard>
         ))}
     </GridContainer>
