@@ -6,6 +6,7 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 const Technologies = () =>  (
     <Section>
     <SectionDivider/>
+        <br/>
         <SectionText>
             I've worked from both frontend to backend, and different frameworks.
         </SectionText>
