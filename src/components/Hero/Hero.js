@@ -8,16 +8,16 @@ const Hero = () => (
   <Section row nopadding>
       <LeftSection>
           <SectionTitle main center>
-              Welcome to <br/>
-              My Personal Portfolio
+              Web Developer, <br/>
+              Front End || Full Stack Developer
           </SectionTitle>
           <SectionText>
               Building and expanding my knowledge on web development.
           </SectionText>
-          <Button onClick ={() => window.location = 'https://google.com'}>
-              Learn More
+          {/*<Button onClick ={() => window.location = 'https://google.com'}>*/}
+          {/*    Learn More*/}
 
-          </Button>
+          {/*</Button>*/}
       </LeftSection>
   </Section>
 );
